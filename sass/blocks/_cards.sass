@@ -1,0 +1,128 @@
+.cards
+  padding-bottom: 6rem
+  &__wrapper
+    padding-top: 4.5%
+  &__top
+    display: flex
+    align-items: center
+    /* justify-content: space-between */
+    margin-bottom: 3.8%
+  &__title
+    font-weight: bold
+    font-size: 36px
+    line-height: 42px
+    color: #000000
+    &-rest
+      margin-right: 3%
+  &__input
+    margin-left: auto
+    background-image: url(../img/search.svg)
+  &__bottom
+    display: flex
+    flex-wrap: wrap
+    gap: 2%
+  &__item
+    overflow: hidden
+    background: #FFFFFF
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05)
+    border-radius: 7px
+    margin-bottom: 3.3%
+    flex-basis: 32%
+    &-title
+      font-weight: bold
+      font-size: 2.4rem
+      line-height: 133%
+      color: #000000
+      &-rest
+        font-weight: 400
+  &__img
+    // max-width: 38.4rem
+    min-height: 25rem
+    object-fit: cover
+  &__about
+    display: flex
+    align-items: center
+    justify-content: space-between
+    margin-bottom: 2%
+  &__info
+    display: flex
+    align-items: center
+    &-item
+      font-weight: normal
+      font-size: 1.8rem
+      line-height: 178%
+      color: #8C8C8C
+    &-rest
+      flex: 0.3
+  &__text
+    padding: 5% 6% 7% 6%
+  &__rest
+    flex-direction: column
+    align-items: start
+    &-buttom
+      display: flex
+      align-items: center
+  &__ingredients
+    font-style: normal
+    font-weight: 400
+    font-size: 1.8rem
+    line-height: 117%
+    color: #8C8C8C
+    margin-bottom: 2rem
+  &__button
+    display: flex
+    align-items: center
+    background: #1890FF
+    border-radius: 2px
+    padding: 0.8rem 1.6rem
+    font-family: 'SF Pro Display'
+    font-style: normal
+    font-weight: 400
+    font-size: 16px
+    line-height: 24px
+    color: #FFFFFF
+    border: 1px solid #1890FF
+    margin-right: 3rem
+    &-text
+      font-size: 16px
+      line-height: 24px
+      margin-right: 0.6rem
+    
+.time
+  background: #262626
+  border-radius: 0.2rem
+  font-size: 1.2rem
+  line-height: 167%
+  color: #FFFFFF
+  padding: 0.6% 2.4%
+.rating
+  font-weight: bold
+  font-size: 1.8rem
+  line-height: 178%
+  color: #FFC107
+  background-image: url(../img/star.svg)
+  background-repeat: no-repeat
+  background-position: left center
+  padding-left: 2.3rem
+  margin-right: 8%
+  
+  
+.price
+  margin-right: 7%
+  position: relative
+  &::after
+    position: absolute
+    content: '.'
+    color: #8C8C8C
+    font-size: 5rem
+    top: -45%
+    left: 107%
+    right: 0
+  &__rest
+    font-style: normal
+    font-weight: 700
+    font-size: 2rem
+    line-height: 160%
+    color: #000000
+
+
